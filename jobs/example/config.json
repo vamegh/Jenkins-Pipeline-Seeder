@@ -1,0 +1,16 @@
+{
+  "name": "ami-builds",
+  "git_credentials": "git_user",
+  "git_url": "https://github.com/vamegh",
+  "git_extra_lib": "jenkins-sandbox",
+  "deployments": [
+    {
+      "git_repo": "jenkins-builds",
+      "paths": [
+        "jenkins-master/ubuntu-ec2",
+        "jenkins-agent/ubuntu-ec2",
+        "base"
+      ]
+    }
+  ]
+}
